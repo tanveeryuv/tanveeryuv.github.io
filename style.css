@@ -1,0 +1,66 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dark techy theme */
+body {
+  font-family: "Fira Code", monospace, Arial, sans-serif;
+  background: #0d1117;
+  color: #c9d1d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  padding: 2rem;
+  background: #161b22;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,255,255,0.15);
+  text-align: center;
+}
+
+/* Header */
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #58a6ff;
+}
+
+header p {
+  font-size: 1rem;
+  color: #8b949e;
+}
+
+/* Links section */
+.links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.links a {
+  font-size: 2rem;
+  color: #c9d1d9;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.links a:hover {
+  color: #58a6ff;
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: #8b949e;
+}
